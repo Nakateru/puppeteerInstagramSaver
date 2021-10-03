@@ -30,7 +30,7 @@ const readline = require('readline');
     //get user name
     const title = await page.title();
     //console.log(title);
-    const username = title.match(/(.+)(は| on| 在|の|が)/)[1];
+    const username = title.match(/(.+)(はInstagram|の動画|がInstagram)/)[1];
     console.log('User Name: ' + username);
 
     //get post time
