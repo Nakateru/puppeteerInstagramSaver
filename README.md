@@ -1,3 +1,3 @@
 # puppeteerInstagramSaver
 
-for saving image or video on a tweet
+for saving image or video on an instagram post
