@@ -103,7 +103,7 @@ const readline = require('readline');
                 if(!url.endsWith('/')) {
                     url = url + '/';
                 }
-                const re = url.match(/www.instagram.com\/(tv|p)\/[a-zA-Z0-9]{11}\/$/);
+                const re = url.match(/www.instagram.com\/(tv|p)\/[a-zA-Z0-9-]{11}\/$/);
                 if(re===null){
                     console.log('ERROR URL!');
                     process.exit();
