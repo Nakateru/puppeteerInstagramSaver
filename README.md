@@ -19,3 +19,7 @@ Used puppeteer-extra and puppeteer-extra-plugin-stealth
 Set browser language to English and headless mode(cookie needed)
 
 If you login more than 3 times a day or save reel ,please create your cookie file and load it
+
+## v1.3.1
+
+Debugged regular expression of title
